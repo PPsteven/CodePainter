@@ -80,9 +80,19 @@ const config: Config = {
           type: 'docSidebar',
           sidebarId: 'techwiki',
           position: 'left',
-          label: 'Wiki',
+          label: 'Documents',
         },
         {to: '/blog', label: 'Blog', position: 'left'},
+        {
+          label: 'Topics',
+          position: 'right',
+          items: [
+            {
+              label: 'Interview Notes',
+              to: 'docs/%E9%9D%A2%E8%AF%95%E6%8A%80%E5%B7%A7/%E6%95%B0%E6%8D%AE%E7%BB%93%E6%9E%84/%E9%93%BE%E8%A1%A8/%E9%93%BE%E8%A1%A8%E7%AE%80%E4%BB%8B',
+            },
+          ]
+        },
         {
           href: 'https://github.com/PPsteven',
           label: 'GitHub',
@@ -93,15 +103,9 @@ const config: Config = {
     footer: {
       style: 'dark',
       links: [
-        {
-          title: 'Docs',
-          items: [
-            {
-              label: 'Interview Notes',
-              to: 'docs/%E9%9D%A2%E8%AF%95%E6%8A%80%E5%B7%A7/%E6%95%B0%E6%8D%AE%E7%BB%93%E6%9E%84/%E9%93%BE%E8%A1%A8/%E9%93%BE%E8%A1%A8%E7%AE%80%E4%BB%8B',
-            },
-          ],
-        },
+        // {
+        //   title: 'Docs'
+        // },
         // {
         //   title: 'Community',
         //   items: [
