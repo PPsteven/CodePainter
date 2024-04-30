@@ -42,6 +42,8 @@ jobs:
       - name: Deploy to GitHub Pages
         env:
           USE_SSH: true
+          DEPLOYMENT_BRANCH: master
+          GIT_USER: ppsteven
         run: |
           git config --global user.email "ppsteven@outlook.com"
           git config --global user.name "PPsteven"
