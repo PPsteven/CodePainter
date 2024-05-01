@@ -6,7 +6,7 @@ tags:
 categories: 剑指Offer
 
 cover: https://cdn.jsdelivr.net/gh/PPsteven/pictures/img/20201014133927.png
-permalink: /pages/d396a8/
+slug: /pages/d396a8/
 ---
 
 ## 题目描述

@@ -6,7 +6,7 @@ const config: Config = {
   title: 'CodePainter',
   staticDirectories: ['public', 'static', 'assets'],
   tagline: 'Dinosaurs are cool',
-  favicon: 'img/favicon.ico',
+  favicon: 'img/gopher.svg',
 
   // Set the production url of your site here
   url: 'https://ppsteven.github.io',
@@ -73,7 +73,7 @@ const config: Config = {
       title: 'CodePainter',
       logo: {
         alt: 'CodePainter',
-        src: 'img/logo.svg',
+        src: 'img/gopher.svg',
       },
       items: [
         {
@@ -89,7 +89,7 @@ const config: Config = {
           items: [
             {
               label: 'Interview Notes',
-              to: 'docs/%E9%9D%A2%E8%AF%95%E6%8A%80%E5%B7%A7/%E6%95%B0%E6%8D%AE%E7%BB%93%E6%9E%84/%E9%93%BE%E8%A1%A8/%E9%93%BE%E8%A1%A8%E7%AE%80%E4%BB%8B',
+              to: 'docs/pages/9e81db/',
             },
           ]
         },
@@ -103,9 +103,15 @@ const config: Config = {
     footer: {
       style: 'dark',
       links: [
-        // {
-        //   title: 'Docs'
-        // },
+        {
+          title: 'Docs',
+          items: [
+            {
+              label: 'Interview Notes',
+              to: 'docs/pages/9e81db/'
+            }
+          ]
+        },
         // {
         //   title: 'Community',
         //   items: [
