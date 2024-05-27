@@ -155,7 +155,7 @@ const config: Config = {
     },
   } satisfies Preset.ThemeConfig,
 
-  plugins: ["docusaurus-plugin-sass"],
+  // plugins: ["docusaurus-plugin-sass"],
 };
 
 export default config;
